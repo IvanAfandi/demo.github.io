@@ -19,8 +19,8 @@ body {
 }
 
 #card {
-  width: 400px;
-  height: 500px;
+  width: 279px;
+  height: 209px;
   position: relative;
   user-select: none;
 
@@ -30,6 +30,6 @@ img,canvas {
   border-bottom: 10px;
 }
 
-#card:active {
+/* #card:active {
   transform: scale(1.05);
-}
+} */
