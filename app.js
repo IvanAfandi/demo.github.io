@@ -1,4 +1,4 @@
-var num = Math.floor(Math.random() * 4) +1;
+var num = Math.floor(Math.random() * 2) +1;
 
 $('#card').wScratchPad({
     size: 100,          // The size of the brush/scratch.
