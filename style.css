@@ -26,12 +26,12 @@ body {
 
 }
 
-UI here
+/* UI start here */
 
-/* #payment-info {
+#payment-info {
   width: 247px;
   height: 91px;
-} */
+}
 
 img,canvas {
   border-bottom: 10px;
