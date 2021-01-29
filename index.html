@@ -26,12 +26,14 @@ https://github.com/andreruffert/scratchie.js
       <div class="container" id="js-container">
         <canvas class="canvas" id="js-canvas" width="279px" height="209px"></canvas>
         <img src="reward-1.png" width="100%" height="100%" id="reward"/>
+        <!-- <img src="win.png" width="100%" height="100%" id="win"/> -->
       </div>
     </div>
     <div class="utility">
       <img src="utility.png" width="100%" height="100%"/>
     </div>
     <script>
+          
       (function () {
         "use strict";
 
@@ -39,6 +41,7 @@ https://github.com/andreruffert/scratchie.js
         var img = document.getElementById("reward");
         img.src = "reward-" + num + ".png";
         console.log(num)
+        
         
         var isDrawing, lastPoint;
         var container = document.getElementById("js-container"),
@@ -158,6 +161,7 @@ https://github.com/andreruffert/scratchie.js
         function handleMouseUp(e) {
           isDrawing = false;
         }
+        
       })();
     </script>
   </body>
