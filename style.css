@@ -1,5 +1,5 @@
 body {
-  padding: 20px 0;
+  /* padding: 20px 0; */
   background-color: #f7f7f7;
 }
 
@@ -35,14 +35,14 @@ body {
   width: 375px;
   height: 32px;
   position: relative;
-  margin: 0 auto 32px auto;
+  margin: 16px auto 32px auto;
 }
 
 .card {
   width: 343px;
   height: 66px;
   position: relative;
-  margin: 32px auto;
+  margin: 24px auto;
 }
 
 .gameplay-container {
@@ -58,7 +58,7 @@ body {
   width: 311px;
   height: 43px;
   margin: 0 auto;
-  padding-top: 32px;
+  padding-top: 24px;
   padding-bottom: 32px;
 }
 
@@ -66,5 +66,5 @@ body {
   width: 343px;
   height: 117px;
   position: relative;
-  margin: 32px auto;
+  margin: 24px auto;
 }
